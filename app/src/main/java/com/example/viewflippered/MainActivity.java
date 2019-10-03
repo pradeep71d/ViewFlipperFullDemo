@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 viewFlipper.showNext();
             }
         });
+      //  viewFlipper.setFlipInterval(3000);//if we want auto start of view flipper,time is in milli second
+       // viewFlipper.setAutoStart(true);
     }
 }
 
